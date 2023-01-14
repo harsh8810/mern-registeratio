@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.center{
+  
+  width: 100vw;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+      background-color: rgb(207, 227, 247);
+  
+
+}
+.left{
+    height: 70vh;
+    width: 86vw;
+    text-align: center;
+}
+.left h1{
+   font-size: 5rem;
+font-style: oblique;
+    /* color: whitesmoke; */
+    box-shadow: 5px 8px 11px 5px rgb(1 1 0 / 37%);
+}
+
+.paragragh {
+    margin-top: 100px;
+    margin-bottom: 1rem;
+    font-size: 22px;
+    color: #cf4d33;
+}
+
+
+
+@media (max-width: 450px) {
+    .left h1 {
+            font-size: 3rem;
+        }
+.left h1 p {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-size: 18px;
+    color: #cf4d33;
+}
+
+}
